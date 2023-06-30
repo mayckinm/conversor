@@ -28,12 +28,29 @@
                             <li role="button" tabindex="0" aria-checked="false">Temperatura</li>
                             <li role="button" tabindex="0" aria-checked="false">Massa</li>
                             <li role="button" tabindex="0" class="ativo" aria-checked="true">Comprimento</li>
-
-                  </ul>
+                    </ul>
              </div>
              <!-- Validação para enserir um valor -->
              <label for="valor">Valor</label>
                 <input type="number" name="valor" id="valor" placeholder="Digite um valor!">
-    </div>
+            </div>
+           
+           <!-- Pré seleções de medidas -->
+            <div class="unidades-container">
+                <div class="unidade">
+                    <button aria-label="Escolher unidade de medida de origem" aria-expanded="false" aria-controls="lista-unidades-origem" class="js-btns" id="btn-from" data-type="unidades">Centímetro</button>
+                    <ul id="lista-unidades-origem">
+                        <li role="button" tabindex="0" aria-checked="false">Quilômetro</li>
+                        <li role="button" tabindex="0" aria-checked="false">Metro</li>
+                        <li role="button" tabindex="0" aria-checked="true" class="ativo">Centímetro</li>
+                        <li role="button" tabindex="0" aria-checked="false">Milímetro</li>
+                        <li role="button" tabindex="0" aria-checked="false">Micrômetro</li>
+                        <li role="button" tabindex="0" aria-checked="false">Nanômetro</li>
+                        <li role="button" tabindex="0" aria-checked="false">Milha</li>
+                        <li role="button" tabindex="0" aria-checked="false">Pé</li>
+                        <li role="button" tabindex="0" aria-checked="false">Polegada</li>
+                        <li role="button" tabindex="0" aria-checked="false">Jarda</li>
+                    </ul>
+                </div>
 </body>
 </html>
