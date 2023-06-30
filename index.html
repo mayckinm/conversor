@@ -22,14 +22,18 @@
         <!-- Criado seleções de medidads -->
         <div class="conversor-container">
             <div>
-                    <div class="medidas">
-                        <button aria-expanded="false" aria-controls="lista-medidas" class="js-btns" id="btn-medida" data-type="medidas">Comprimento <img src="./arrow-down-short.svg" alt=""></button>
+                <div class="medidas">
+                     <button aria-expanded="false" aria-controls="lista-medidas" class="js-btns" id="btn-medida" data-type="medidas">Comprimento <img src="./arrow-down-short.svg" alt=""></button>
                         <ul id="lista-medidas">
                             <li role="button" tabindex="0" aria-checked="false">Temperatura</li>
                             <li role="button" tabindex="0" aria-checked="false">Massa</li>
                             <li role="button" tabindex="0" class="ativo" aria-checked="true">Comprimento</li>
-                        </ul>
-                    </div>
+
+                  </ul>
+             </div>
+             <!-- Validação para enserir um valor -->
+             <label for="valor">Valor</label>
+                <input type="number" name="valor" id="valor" placeholder="Digite um valor!">
     </div>
 </body>
 </html>
