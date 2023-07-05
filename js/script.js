@@ -1,8 +1,8 @@
 import conversorFormulas from "./formula_conversoes.js";
 
-const comprimento = ['Nanômetro', 'Micrômetro', 'Milímetro', 'Centímetro', 'Metro', 'Quilômetro', 'Milha', 'Pé', 'Polegada', 'Jarda'];
+const comprimento = [ 'Centímetro', 'Metro', 'Polegada'];
 const temperatura = ['Kelvin', 'Fahrenheit', 'Celsius'];
-const massa = ['Micrograma', 'Miligrama', 'Grama', 'Quilograma', 'Tonelada', 'Libra', 'Onça'];
+const massa = [ 'Grama', 'Quilograma', 'Libra'];
 
 const attributesToSet = {
     'tabindex': '0',
