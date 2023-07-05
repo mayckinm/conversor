@@ -11,14 +11,10 @@
   }
   
   body {
-    background-color: #f0f0eb;
-    font-family: "Raleway", sans-serif;
+    background-color: #021237;
     height: 100vh;
     display: grid;
     font-size: 16px;
-    background-image: url('./bg.svg');
-    background-repeat: no-repeat;
-    background-size: cover
   }
   
   .container {
@@ -29,48 +25,37 @@
     width: 100%;
     margin: auto;
     padding: 50px 15px;
-    background-image: url('./detalhe.svg');
-    background-repeat: no-repeat;
     background-size: 5rem;
     background-position: 2% 85%;
   }
   
   button {
-    color: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    font-family: inherit;
-    cursor: pointer;
-    background: transparent;
+    color: black;
+    font-size: black;
+    font-weight: black;
     border: 0;
     display: flex;
     align-items: center;
     padding: 5px 0;
   }
   
-  label {
-    visibility: hidden;
-    position: absolute;
-  }
-  
   h1 {
-    color: #363838;
-    font-size: 48px;
+    color: #08b2fc;
+    font-size: 50px;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 38px;
   }
   
   .titulo p,
   .titulo a {
-    color: #363838;
-    text-decoration: none;
+    color: #08c0d4;
   }
   
   .conversor-container {
     background: #f8fafa;
     border: 1px solid #e0dfda;
     border-radius: 10px;
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 5px 20px rgba(6, 132, 177, 0.05);
     padding: 40px;
     margin-left: 30px;
   }
@@ -84,13 +69,8 @@
     transition: all 0.2s ease;
     border-radius: 5px;
     padding: 15px;
-    border: 1px solid #dae0e0;
-  }
-  
-  .medidas button:hover {
-    border: 1px solid rgba(154, 112, 196, 0.5);
-    color: #00abc2;
-    background: (#00abc2);
+    border: 1px solid #f2f2ff;
+    color: #08b2fc;
   }
   
   ul {
@@ -98,7 +78,7 @@
     border: 1px solid #e0dfda;
     position: absolute;
     bottom: 100%;
-    color: #313131;
+    color: #6f0909;
     display: none;
     width: 100%;
   }
@@ -169,11 +149,11 @@
   }
   
   input::placeholder {
-    color: #8f8f8f;
+    color: #0cc3f6;
   }
   
   .trocar {
-    background: linear-gradient(180deg, #9a70c4 0%, #543784 100%);
+    background: linear-gradient(180deg, #09b1f9 0%, #543784 100%);
     color: #f0f0eb;
     border-radius: 5px;
     width: 100%;
@@ -189,7 +169,7 @@
   }
   
   .trocar:hover {
-    outline: 3px solid rgba(154, 112, 196, 0.5);
+    outline: 3px solid rgba(9, 193, 239, 0.5);
   }
   
   .resultado {
