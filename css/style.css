@@ -13,20 +13,32 @@
   body {
     background-color: #021237;
     height: 100vh;
-    display: grid;
     font-size: 16px;
   }
   
+  footer{
+    display:flexbox;
+      display: flex;
+      justify-content: space-around;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #913301;
+      padding: 15px;
+    }
+  .rodapeIndex{
+    position: fixed;
+    padding: 5px;
+  }
+
   .container {
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
     max-width: 900px;
     width: 100%;
     margin: auto;
     padding: 50px 15px;
-    background-size: 5rem;
-    background-position: 2% 85%;
+    background-position: 2% 85%; */
   }
   
   button {
