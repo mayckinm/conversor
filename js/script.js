@@ -42,7 +42,7 @@ function criarunidadeEntrada() {
     else if (categoria.value == 'temperatura') {
       // Adiciona opções ao select de unidade de entrada relacionadas a temperatura
       acessoEntrada.options.add(new Option("Celsius", "celsius"))
-      acessoEntrada.options.add(new Option("Fahrenheit", "fr"))
+      acessoEntrada.options.add(new Option("Fahrenheit", "Fahrenheit"))
       acessoEntrada.options.add(new Option("Kelvin", "kelvin"))
     }
   }
