@@ -12,3 +12,17 @@ var divUnidades = document.getElementById('unidades')
 var inputResultado = document.getElementById('informarResultado')
 //seleciona um novo valor de opção dos textos e valor//
 new Option("optionText", "optionValue")
+
+function limparOptionsEntrada() {
+    acessoEntradaEntrada.options.length = 0
+  }
+  function limparOptionsSaida() {
+    acessoSaidadeSaida.options.length = 0
+  }
+  function limparResultado(){
+      inputInformarResultado.value = ''
+}
+
+
+
+  
