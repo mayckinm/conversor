@@ -27,22 +27,22 @@ function criarunidadeEntrada() {
     // Verifica se a categoria selecionada é 'comprimento'
     if (categoria.value == 'comprimento') {
       // Adiciona opções ao select de unidade de entrada relacionadas a comprimento
-      unidadeEntrada.options.add(new Option("Metros", "metros"))
-      unidadeEntrada.options.add(new Option("Centímetros", "centimetros"))
-      unidadeEntrada.options.add(new Option("Polegadas", "polegadas"))
+      acessoEntrada.options.add(new Option("Metros", "metros"))
+      acessoEntrada.options.add(new Option("Centímetros", "centimetros"))
+      acessoEntrada.options.add(new Option("Polegadas", "polegadas"))
     }
     // Verifica se a categoria selecionada é 'peso'
     else if (categoria.value == 'peso') {
       // Adiciona opções ao select de unidade de entrada relacionadas a peso
-      unidadeEntrada.options.add(new Option("Quilogramas", "quilogramas"))
-      unidadeEntrada.options.add(new Option("Gramas", "gramas"))
-      unidadeEntrada.options.add(new Option("Libras", "libras"))
+      acessoEntrada.options.add(new Option("Quilogramas", "quilogramas"))
+      acessoEntrada.options.add(new Option("Gramas", "gramas"))
+      acessoEntrada.options.add(new Option("Libras", "libras"))
     }
     // Verifica se a categoria selecionada é 'temperatura'
     else if (categoria.value == 'temperatura') {
       // Adiciona opções ao select de unidade de entrada relacionadas a temperatura
-      unidadeEntrada.options.add(new Option("Celsius", "celsius"))
-      unidadeEntrada.options.add(new Option("Fahrenheit", "fr"))
-      unidadeEntrada.options.add(new Option("Kelvin", "kelvin"))
+      acessoEntrada.options.add(new Option("Celsius", "celsius"))
+      acessoEntrada.options.add(new Option("Fahrenheit", "fr"))
+      acessoEntrada.options.add(new Option("Kelvin", "kelvin"))
     }
   }
