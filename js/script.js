@@ -8,3 +8,5 @@ var acessoEntrada = document.getElementById("acesso-entrada")
 var acessoSaida = document.getElementById("acesso saida")
 // seleciona o elemento com o seu id unidade para guardar a informação//
 var divUnidades = document.getElementById('unidades')
+// seleciona o elemento informar resultado na pagina html//
+var inputResultado = document.getElementById('informarResultado')
