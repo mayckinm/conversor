@@ -10,3 +10,5 @@ var acessoSaida = document.getElementById("acesso saida")
 var divUnidades = document.getElementById('unidades')
 // seleciona o elemento informar resultado na pagina html//
 var inputResultado = document.getElementById('informarResultado')
+//seleciona um novo valor de opção dos textos e valor//
+new Option("optionText", "optionValue")
