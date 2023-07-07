@@ -6,3 +6,5 @@ var ecesso = document.getElementById('acesso')
 var acessoEntrada = document.getElementById("acesso-entrada")
 // seleciona o elemento de saida em id html//
 var acessoSaida = document.getElementById("acesso saida")
+// seleciona o elemento com o seu id unidade para guardar a informação//
+var divUnidades = document.getElementById('unidades')
