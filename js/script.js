@@ -4,3 +4,5 @@ var categoria = document.getElementById('categoria')
 var ecesso = document.getElementById('acesso')
 //seleciona o elemento com o seu id no html//
 var acessoEntrada = document.getElementById("acesso-entrada")
+// seleciona o elemento de saida em id html//
+var acessoSaida = document.getElementById("acesso saida")
